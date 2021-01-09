@@ -5,14 +5,14 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="meowsay",
-    version="1.0.1",
+    version="1.0.2",
     author="Tushar Sadhwani",
     author_email="tushar.sadhwani000@gmail.com",
     description="Cowsay, but better.",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/tusharsadhwani/meowsay",
-    packages=setuptools.find_packages(),
+    py_modules=['meowsay'],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
