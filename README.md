@@ -2,6 +2,12 @@
 
 Cowsay, but better.
 
+## Installation
+
+```console
+pip install meowsay
+```
+
 ## Usage
 
 ```console
